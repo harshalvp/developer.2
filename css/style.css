@@ -102,3 +102,31 @@ footer{
     padding: 20px;
     color: white;
 }
+
+@media(max-width:450px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+
+    h2 {
+        font-size: 1.0em;
+    }
+
+    .lg_text {
+        font-size: 30px
+    }
+
+    .black_box h2 {
+        font-size: 20px;
+    }
+
+    .black_box h2 span {
+        font-size: 35px;
+    }
+
+    .bottom_section {
+        display: flow-root;
+    }
+}
